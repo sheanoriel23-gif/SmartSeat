@@ -1,0 +1,36 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "smartseat-system",
+          "appId": "1:493766567072:android:9d3031e6318bd033dcd5c5",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "smartseat-system",
+          "configurations": {
+            "android": "1:493766567072:android:9d3031e6318bd033dcd5c5",
+            "web": "1:493766567072:web:e0d0a691c4b431fcdcd5c5"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
