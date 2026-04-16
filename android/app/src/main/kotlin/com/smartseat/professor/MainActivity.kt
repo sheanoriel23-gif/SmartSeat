@@ -1,4 +1,4 @@
-package com.example.smartseat_app
+package com.smartseat.professor
 
 import io.flutter.embedding.android.FlutterActivity
 
