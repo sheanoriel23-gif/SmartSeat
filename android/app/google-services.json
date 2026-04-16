@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "493766567072",
+    "firebase_url": "https://smartseat-system-default-rtdb.asia-southeast1.firebasedatabase.app",
     "project_id": "smartseat-system",
     "storage_bucket": "smartseat-system.firebasestorage.app"
   },
